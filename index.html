@@ -1,214 +1,291 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-     
-    <title>my website</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surafel - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
+    <!-- Navigation -->
+    <div class="nav">
+        <img class="logo" src="https://via.placeholder.com/150x50/6a11cb/ffffff?text=LOGO" alt="Logo">
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contacts">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <h1>Hello, I'm <span class="highlight">Surafel</span></h1>
+                <h2 class="typing">Web Developer & Designer</h2>
+                <p>Welcome to my personal portfolio. I create modern, responsive websites to help your business shine online.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+            <div class="home-image">
+                <img class="sura" src="https://via.placeholder.com/500x500/6a11cb/ffffff?text=Surafel" alt="Surafel">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I'm <span class="highlight">Surafel</span>, a passionate <span class="highlight">Website Developer</span> from 
+                    <span class="highlight">UOG</span>, Ethiopia.
+                </p>
+                <p>
+                    I create modern, responsive, and user-friendly websites to help grow and
+                    improve your online business activities.
+                </p>
+                <a href="#skills" class="btn">View My Skills</a>
+            </div>
+        </div>
 
 
-  
-<div class="nav">
-
-
-<div class="body">
-
-<div class="navbar">
-<img class="logo" src="logo-image.png" alt="">
-<ul>
-  <li><a href="#home">HOME</a></li>
-  <li><a href="#about">ABOUT</a></li>
-  <li><a href="#contacts">CONTACT</a></li>
-  <li><a href="#skills">SKILL</a></li>
-</ul>
-
-</div>
-
-</div> 
-
-</div>
- 
-
-<section id="home" class="home-section">
-  <div class="home-content">
-    <h1>Hello, I'm <span>Surafel</span></h1>
-    <h2 class="typing"></h2>
-    <p>Welcome to my personal portfolio. I create modern, responsive websites to help your business shine online.</p>
-    <a href="#about" class="btn">Learn More</a>
-  </div>
-  <div class="home-image">
+        <div class="about">
    <img class="sura"  src="surafel.png">
   </div>
-</section>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item" data-course="https://www.udemy.com/course/beginning-c-plus-plus-programming/">
+                    <div class="skill-header">
+                        <div class="skill-name"><i class="fas fa-code"></i> C++ Programming</div>
+                        <div class="skill-percentage">85%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percentage="85"></div>
+                    </div>
+                    <a href="https://www.udemy.com/course/beginning-c-plus-plus-programming/" target="_blank" class="course-btn">Take C++ Course</a>
+                </div>
+                <div class="skill-item" data-course="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+                    <div class="skill-header">
+                        <div class="skill-name"><i class="fab fa-react"></i> React.js</div>
+                        <div class="skill-percentage">0%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percentage="0"></div>
+                    </div>
+                    <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank" class="course-btn">Learn React.js</a>
+                </div>
+                <div class="skill-item" data-course="https://www.udemy.com/course/html-css-javascript-for-web-developers/">
+                    <div class="skill-header">
+                        <div class="skill-name"><i class="fab fa-html5"></i> HTML & CSS</div>
+                        <div class="skill-percentage">90%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percentage="90"></div>
+                    </div>
+                    <a href="https://www.udemy.com/course/html-css-javascript-for-web-developers/" target="_blank" class="course-btn">Master HTML & CSS</a>
+                </div>
+                <div class="skill-item" data-course="https://www.udemy.com/course/the-complete-javascript-course/">
+                    <div class="skill-header">
+                        <div class="skill-name"><i class="fab fa-js-square"></i> JavaScript</div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-percentage="80"></div>
+                    </div>
+                    <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank" class="course-btn">JavaScript Course</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contacts" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul class="contact-links">
+                <li>
+                    <a href="https://t.me/sura2143" target="_blank">
+                        <span>Telegram:</span> @sura2143
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=surafelwanasew@gmail.com" target="_blank">
+                        <span>Email:</span> surafelwanasew@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/surafelwanasew-cpu/my-portfolio" target="_blank">
+                        <span>GitHub:</span> My Portfolio
+                    </a>
+                </li>
+            </ul>
 
-<section id="about" class="about-section">
-  <div class="about-text">
-    <h2>About Me</h2>
-    <p>
-      I'm <span>Surafel</span>, a passionate <span>Website Developer</span> from 
-      <span>UOG</span>, Ethiopia.
-    </p>
-    <p>
-      I create modern, responsive, and user-friendly websites to help grow and
-      improve your online business activities.
-    </p>
-    <a href="#skills" class="btn">View My Skills</a>
-  </div>
-</section>
+            <!-- Contact Form -->
+            <form id="contactForm" class="contact-form" 
+                  action="https://formspree.io/f/yourformid" 
+                  method="POST">
+                
+                <!-- Name & Email -->
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
 
+                <!-- Phone -->
+                <div class="input-box">
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
 
+                <!-- Message -->
+                <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
 
-<section id="skills" class="section">
-  <h2>Skills</h2>
-  <ul class="skills-list">
-    
-    <li><a href="https://github.com/surafelwanasew-cpu/my-portfolio/blob/main/learn-cpp/main.cpp" target="_blank">
-      <span>C</span>++ Programming</a></li><br>
-    <li><a href="https://github.com/surafelwanasew-cpu/my-portfolio/tree/main/learn-react" target="_blank">
-      <span>R</span>eact .js</a></li><br>
-    <li><a href="https://github.com/surafelwanasew-cpu/my-portfolio/blob/main/index.html" target="_blank">
-      <span>H</span>TML & <span>C</span>SS</a></li><br>
-    <li><a href="https://github.com/surafelwanasew-cpu/my-portfolio/blob/main/script.js" target="_blank">
-      <span>J</span>avaScript</a></li>
-  </ul>
-</section>
+                <!-- Submit Button -->
+                <button type="submit" class="btn">Send Message</button>
 
+                <!-- Error & Success Messages -->
+                <div id="formMessages">
+                    <p id="nameError"></p>
+                    <p id="phoneError"></p>
+                    <p id="emailError"></p>
+                    <p id="successMsg"></p>
+                </div>
+            </form>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Surafel. All Rights Reserved.</p>
+        </div>
+    </footer>
 
+    <script>
+        // Typing Effect
+        const typingElement = document.querySelector('.typing');
+        const texts = ['Web Developer', 'UI/UX Designer', 'Problem Solver', 'Creative Thinker'];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
 
-<section id="contacts" class="section">
-<h2>contact me</h2>
-<ul class="contact-links">
-  <li>
-    <a href="https://t.me/sura2143" target="_blank" class="btn">
-      <span>Telegram:</span> @sura2143
-    </a>
-  </li><br>
-     
- <li>
- <a href="https://mail.google.com/mail/?view=cm&fs=1&to=surafelwanasew@gmail.com" target="_blank" class="btn">
-        <span>Email:</span> surafelwanasew@gmail.com
-      </a>
-</li><br>
-
-  <li>
-    <a href="https://github.com/surafelwanasew-cpu/my-portfolio" target="_blank" class="btn">
-      <span>GitHub:</span> My Portfolio
-    </a>
-  </li>
-</ul>
-</section>
-
-
-
-
-     
-
-    <!-- Contact Form -->
-    <form id="contactForm" class="contact-form" 
-          action="https://formspree.io/f/yourformid" 
-          method="POST">
-      
-      <!-- Name & Email -->
-      <div class="input-box">
-        <input type="text" id="name" name="name" placeholder="Full Name" required>
-        <input type="email" id="email" name="email" placeholder="Email Address" required>
-      </div>
-
-      <!-- Phone -->
-      <div class="input-box">
-        <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
-      </div>
-
-      <!-- Message -->
-      <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
-
-      <!-- Submit Button -->
-      <button type="submit" class="btn">Send Message</button>
-
-      <!-- Error & Success Messages -->
-      <div id="formMessages">
-        <p id="nameError"></p>
-        <p id="phoneError"></p>
-        <p id="emailError"></p>
-        <p id="successMsg"></p>
-      </div>
-    </form>
-  </div>
-</section>
-
-<!-- Contact Form Script -->
-<script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); 
-
-    // Clear previous messages
-    document.getElementById('nameError').innerText = '';
-    document.getElementById('phoneError').innerText = '';
-    document.getElementById('emailError').innerText = '';
-    document.getElementById('successMsg').innerText = '';
-
-    let name = document.getElementById('name').value.trim();
-    let phone = document.getElementById('phone').value.trim();
-    let email = document.getElementById('email').value.trim();
-    let message = document.getElementById('message').value.trim();
-    let valid = true;
-
-    // Name validation
-    if (!/^[a-zA-Z\s]+$/.test(name)) {
-        document.getElementById('nameError').innerText = 'Name must contain only letters.';
-        valid = false;
-    }
-
-    // Phone validation
-    if (!/^\d{10,15}$/.test(phone)) {
-        document.getElementById('phoneError').innerText = 'Phone must contain only numbers (10-15 digits).';
-        valid = false;
-    }
-
-    // Email validation
-    if (!/^\S+@\S+\.\S+$/.test(email)) {
-        document.getElementById('emailError').innerText = 'Please enter a valid email.';
-        valid = false;
-    }
-
-    // Submit form if valid
-    if (valid) {
-        fetch(this.action, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                phone: phone,
-                message: message
-            })
-        })
-        .then(response => {
-            if (response.ok) {
-                document.getElementById('successMsg').innerText = 'Form submitted successfully! You will receive replies via email.';
-                this.reset();
+        function type() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 50;
             } else {
-                document.getElementById('successMsg').innerText = 'Oops! Something went wrong. Please try again.';
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+                typingSpeed = 100;
             }
-        })
-        .catch(error => {
-            document.getElementById('successMsg').innerText = 'Error submitting form!';
+
+            if (!isDeleting && charIndex === currentText.length) {
+                isDeleting = true;
+                typingSpeed = 1000; // Pause at end
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                typingSpeed = 500; // Pause before starting next text
+            }
+
+            setTimeout(type, typingSpeed);
+        }
+
+        // Start typing effect
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(type, 1000);
+            
+            // Animate skill bars
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach(bar => {
+                const percentage = bar.getAttribute('data-percentage');
+                setTimeout(() => {
+                    bar.style.width = `${percentage}%`;
+                }, 500);
+            });
+
+            // Add click event to skill items
+            const skillItems = document.querySelectorAll('.skill-item');
+            skillItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const courseUrl = this.getAttribute('data-course');
+                    window.open(courseUrl, '_blank');
+                });
+            });
         });
-    }
-});
-</script>
 
+        // Form Validation
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
 
+            // Clear previous messages
+            document.getElementById('nameError').innerText = '';
+            document.getElementById('phoneError').innerText = '';
+            document.getElementById('emailError').innerText = '';
+            document.getElementById('successMsg').innerText = '';
 
-</section>
-  
+            let name = document.getElementById('name').value.trim();
+            let phone = document.getElementById('phone').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+            let valid = true;
+
+            // Name validation
+            if (!/^[a-zA-Z\s]+$/.test(name)) {
+                document.getElementById('nameError').innerText = 'Name must contain only letters.';
+                valid = false;
+            }
+
+            // Phone validation
+            if (!/^\d{10,15}$/.test(phone)) {
+                document.getElementById('phoneError').innerText = 'Phone must contain only numbers (10-15 digits).';
+                valid = false;
+            }
+
+            // Email validation
+            if (!/^\S+@\S+\.\S+$/.test(email)) {
+                document.getElementById('emailError').innerText = 'Please enter a valid email.';
+                valid = false;
+            }
+
+            // Submit form if valid
+            if (valid) {
+                fetch(this.action, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: name,
+                        email: email,
+                        phone: phone,
+                        message: message
+                    })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById('successMsg').innerText = 'Form submitted successfully! You will receive replies via email.';
+                        this.reset();
+                    } else {
+                        document.getElementById('successMsg').innerText = 'Oops! Something went wrong. Please try again.';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('successMsg').innerText = 'Error submitting form!';
+                });
+            }
+        });
+    </script>
 </body>
 </html> 
     
@@ -217,6 +294,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
 
   
+
 
 
 
